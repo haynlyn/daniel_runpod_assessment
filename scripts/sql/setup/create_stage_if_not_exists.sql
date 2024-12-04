@@ -1,0 +1,2 @@
+CREATE STAGE IF NOT EXISTS daniel_hubspot_stage
+FILE_FORMAT = (TYPE = 'JSON');

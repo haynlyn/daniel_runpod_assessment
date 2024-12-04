@@ -1,0 +1,18 @@
+# High-level overview of assessment plan, for myself. Maybe add to private repo later.
+assessment_plan.txt
+
+# Sensitive data for assessment, e.g., HubSpot and Snowflake creds/keys/etc.
+# Provided a Makefile rather than .mise.toml for the repo as it's more
+# available on other platforms.
+define_env_vars.sh
+.env
+.mise.toml
+
+# Data from HubSpot and logs from programs
+data
+logs
+.snowsql
+.runpod_env
+
+# Python package info
+__pycache__
